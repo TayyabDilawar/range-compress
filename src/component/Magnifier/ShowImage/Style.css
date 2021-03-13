@@ -1,0 +1,16 @@
+.add_Image_Padding {
+    padding: 5px;
+    display: inline-flex;
+}
+
+.image_cursor {
+    cursor: pointer;
+}
+
+.backImage {
+    background-color: red;
+    float: left;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+}

@@ -1,0 +1,47 @@
+.imageWindow {
+    z-index: 2;
+    background-color: rgb(252, 252, 252);
+    margin: 0;
+    padding: 0;
+}
+
+.control_bar {
+    width: 100%;
+    height: 25px;
+    /* height: 5%; */
+    background-color: rgb(224, 219, 219);
+    /* position: relative; */
+    text-align: center;
+}
+
+.control_bar .plus_minus {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+
+}
+.control_bar .cross {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+
+.image_show {
+    /* width: 100%; */
+    /* height: 95%; */
+    /* background-color: rebeccapurple; */
+    /* margin: 0 auto; */
+    text-align: center;
+    overflow: hidden;
+}
+
+.image_show img {
+    /* width: 100%;
+    height: 100%; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

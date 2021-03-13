@@ -1,0 +1,38 @@
+.container {
+    width: 80vh;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15px;
+    /* width: 100%;
+    display: flex;
+    justify-content: center; */
+}
+/* .containerInner {
+    width: 75%;
+    padding-top: 50px;
+    box-sizing: border-box;
+} */
+
+input[type="range"] {
+    width: 85%;
+    -webkit-appearance: none;
+    height:5px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #ffd901;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+
+}

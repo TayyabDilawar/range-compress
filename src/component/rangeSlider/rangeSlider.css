@@ -1,0 +1,8 @@
+.rangeSlider{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}

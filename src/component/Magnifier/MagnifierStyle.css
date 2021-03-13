@@ -1,0 +1,89 @@
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.showImageMain {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.main_left {
+    height: 100vh;
+    overflow: auto;
+    padding-top: 6px;
+    float: left;
+    position: relative;
+    background-color: rgb(233, 231, 231);
+    box-sizing: border-box;
+}
+
+.main_right {
+    height: 550px;
+    float: left;
+}
+
+.Top {
+    width: 100%;
+    height: 125px;
+    display: flex;
+}
+
+.Top_Left {
+    width: 40%;
+    height: 100%;
+    margin-left: 10px;
+    overflow: auto;
+    padding: 0px;
+}
+
+.Top_Right {
+    width: 60%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.Top_Empty_Middle {
+    width: 100%;
+    height: 20px;
+}
+
+.Middle {
+    width: 100%;
+    height: 370px;
+    display: flex;
+}
+
+.Middle_Left1 {
+    width: 2%;
+    height: 100%;
+}
+
+.Middle_Left {
+    width: 38%;
+    height: 100%;
+    position: relative;
+}
+
+.Middle_Right {
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+.img-zoom-result {
+    width: 550px;
+    height: 370px;
+    position: absolute;
+    left: 0px;
+}
+
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    width: 150px;
+    height: 120px;
+}
